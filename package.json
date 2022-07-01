@@ -1,0 +1,28 @@
+{
+  "name": "interalia-server",
+  "version": "1.0.0",
+  "description": "iteralia-server-v1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Sergio Madrigal",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.0.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.18.0",
+    "express": "^4.18.1",
+    "fastify": "^4.2.0",
+    "fastify-cors": "^6.1.0",
+    "mongoose": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
